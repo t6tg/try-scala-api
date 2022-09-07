@@ -35,6 +35,6 @@ class SortedMapTaskRepo {
 
   def getAllItemInTodo(): List[Todo] = todoList.values.toList
 
-  def getAllItemInDoing(): List[Todo] = doingList.values.toList
+  def getAllItemInDoing(): List[Doing] = doingList.values.toList
 
 }
